@@ -1,0 +1,9 @@
+http服务器特点
+
+1 响应文件请求
+2 将url转换为本地系统的文件名
+3 响应post和get请求
+4 处理不存在的文件的请求
+5 解释mime
+
+http://www.cafeaulait.org/books/jnp4/examples/src/
