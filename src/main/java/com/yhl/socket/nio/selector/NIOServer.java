@@ -1,4 +1,4 @@
-package com.yhl.nio.selector;
+package com.yhl.socket.nio.selector;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -87,7 +87,7 @@ public class NIOServer {
 		// 服务器可读取消息:得到事件发生的Socket通道
 		SocketChannel channel = (SocketChannel) key.channel();
 		// 创建读取的缓冲区
-		ByteBuffer buffer = ByteBuffer.allocate(1024);
+		ByteBuffer buffer = ByteBuffer.allocate(10240);
 		channel.read(buffer);
 		byte[] data = buffer.array();
 		String msg = new String(data).trim();

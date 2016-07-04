@@ -1,3 +1,5 @@
+此包中例子多为书中实例
+
 http服务器特点
 
 1 响应文件请求
@@ -6,4 +8,5 @@ http服务器特点
 4 处理不存在的文件的请求
 5 解释mime
 
+// java网络编程源码地址
 http://www.cafeaulait.org/books/jnp4/examples/src/

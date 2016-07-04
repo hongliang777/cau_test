@@ -1,7 +1,6 @@
-package com.yhl.nio.reactor;
+package com.yhl.socket.nio.reactor;
 
 import java.io.IOException;
-import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;

@@ -1,15 +1,11 @@
-package com.yhl.nio;
+package com.yhl.socket.nio;
 
-import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Iterator;
-import java.util.Set;
 
 /**
  * Created with IntelliJ IDEA.
