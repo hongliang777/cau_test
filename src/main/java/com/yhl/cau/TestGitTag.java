@@ -5,4 +5,5 @@ package com.yhl.cau;
  */
 public class TestGitTag {
     private String name;
+    private String age;
 }
